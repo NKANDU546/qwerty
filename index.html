@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<!-- Created By Akim -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Somehow I got an error, so I comment the title, just uncomment to show -->
+    <!-- <title>Personal Website</title> -->
+    <link rel="stylesheet" href="tried.css">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <script src="C:\Users\user\source\repos\ConsoleApp8\ConsoleApp8\Script2.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+<style>
+  
+</style>
+<header>
+        <div class="bar">
+        <div class="design">
+            <span class="header"><h1>P5<sub>Design</sub><br></span></h2></span>
+        </div>
+            <nav>
+            <ul>
+                <div class="position">
+                    
+                    <div id="phone" class="open" onclick="ouvrir()"><i class="fas fa-bars"></i></div>
+                    <div id="mobile" class="barre">
+                    <div class="head">
+                        <a class="active" href="qwerty.html">Home</a>
+                      
+                      <a href="Aboutus.php">About</a>
+                      <a href="#section3">Services</a>
+                      <a href="#hey">Contact</a>
+                      <a href="#" class="close"  onclick="fermer()"><i class="fas fa-times"></i></a>
+                      
+            
+                    </div>
+                </div>
+              
+             </div>
+            </ul>
+        </nav>
+        </div>
+        
+    </header> 
+    <script type="text/javascript">
+
+    function ouvrir(){
+    document.getElementById("phone").style.marginLeft="100%";
+     document.getElementById("mobile").style.width="100%";
+     document.getElementById("phone");
+    }
+  
+   function fermer(){
+    document.getElementById("mobile").style.width="0px";
+    document.getElementById("phone").style.marginLeft="0px";
+    document.getElementById("phone");
+   }
+   </script>
+<!-- Get assistance part, the button and social media -->
+<section id="#section1">
+    <div class="section-top">
+        <div class="text-3">
+           <span><span  class="typing"></span>
+        
+        </div>
+        <div class="click">
+           
+            <a href="#section2" Get Assistance" class="button"><i class="fas fa-chevron-down"></i></a>
+            <div class="footer-menu">
+       <div class="media">
+        <ul id="media">
+            <a href="https://twitter.com/NkanduAkim" target="blank"><li><i class="fab fa-twitter-square"></i></li></a>
+            <a href="https://www.facebook.com/profile.php?id=100009176320053" target="blank"><li><i class="fab fa-facebook"></i></li></a>
+            <a href="#" target="blank"><li><i class="fab fa-instagram" ></i></li></a>
+        </ul>
+       </div>
+    </div>
+            </div>
+            <div class="social">
+            
+            </div>
+        </div>
+    </div>
+</section>
+<section class="client" id="section2">
+<div class="web" id="web">
+    <i class="fab fa-internet-explorer"></i>
+    <h1>Web Development</h1>
+    
+   
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quam asperiores eaque in porro. Amet a provident sunt dolor rerum ipsam deleniti, iste, optio perferendis in, deserunt perspiciatis ut beatae.</p>
+    
+    <a href=""><button>Book Now!</button></a>
+</div>
+</section>
+<section class="picture" id="section3">
+
+</section>
+<section class="dev" id="section2">
+    <div class="web" id="web">
+        <i class="fab fa-internet-explorer"></i>
+        <h1>Who are my clients?</h1>
+        
+        
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quam asperiores eaque in porro. Amet a provident sunt dolor rerum ipsam deleniti, iste, optio perferendis in, deserunt perspiciatis ut beatae.</p> 
+    </div>
+</section>
+<section class="picture1" id="section3">
+
+</section>
+<section class="create">
+   
+    <div class="pr">
+    <div class="black" id="bla">
+    <h1 id="last">Latest Projects</h1>
+        <h3 id="blue">01</h3>
+        <p class="create">Creating Branding
+        </p>
+       <p class='lorem'>Lorem ipsum,saepe sed rerum, expedita <br> praesentium ex necessitatibus.</p>
+       <p class='lorem'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione exercitationem minima possimus esse officia sit, autem totam, consequuntur eaque dolore architecto? Corrupti ex exercitationem dolor rem excepturi veniam in itaque..</p>
+       <input type="submit" name="submit" id="show" value="Show More">
+    </div>
+    <div class="blue" id="bl">
+        <h3 id="black">02</h3>
+        <p class="create" id="yes">Creating Branding
+        </p>
+       <p class='lorem' id="yes" >Lorem ipsum,saepe sed rerum, expedita <br> praesentium ex necessitatibus.</p>
+      
+       <img src="let7.jpg" alt="">
+    </div>
+    </div>
+</section>
+
+<section class="hey" id="hey">
+    <div class="container" id="#container">
+		<div class="contact-box">
+			
+			<div class="right">
+				<h2>Contact Us</h2>
+			<form action="email.php" method="post">
+                <input type="text" class="field" placeholder="Your Name" name="nom" value="nom">
+				<input type="text" class="field" placeholder="Your Email" name="email">
+				<input type="text" class="field" placeholder="Phone">
+				<textarea placeholder="Message" class="field"></textarea>
+				<input type="submit" name="submit" id="submit">
+
+             </form>
+			</div>
+		</div>
+	</div>
+    <div class="shit">
+        <section class="contact" id="contact">
+            <div class="max-width">
+                <div class="contact-content">
+                    <div class="column left">
+                        <div class="text">
+                            Get in Touch
+                        </div>
+                        <p>
+                            Your website creating problem?? and you don't solve that.. Don't worry!! I will solve your website problem.Please come and contact with me with your bug/problem.
+                        </p>
+                        <div class="icons">
+                            <div class="row">
+                                <i class="fas fa-user"></i>
+                                <div class="info">
+                                    <div class="head">
+                                        Name
+                                    </div>
+                                    <div class="sub-title">
+                                        Lukeshi, Akim
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="info">
+                                    <div class="head">
+                                        Address
+                                    </div>
+                                    <div class="sub-title">
+                                        400 16th and New Road, Cental Park, Midrand, Block L South
+    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-envelope"></i>
+                                <div class="info">
+                                    <div class="head">
+                                        Email
+                                    </div>
+                                    <div class="sub-title">
+                                        akim@p5design.ac.za
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+    
+
+    </div>
+</section>
+<!-- footer section start -->
+<footer>
+    <span>Created By <a href="#">P5Design   
+    </a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+</footer>
+
+<!-- Somehow I got an error, so I comment the script tag, just uncomment to use -->
+<!-- <script src="script.js"></script> -->
+
+
+
+
+
+
+
+
+
+
+</body>
+<!-- Javascript code -->
+<script>
+      
+$(document).ready(function () {
+    $(window).scroll(function () {
+        // sticky navbar on scroll script
+        if (this.scrollY > 20) {
+            $('.navbar').addClass("sticky");
+        } else {
+            $('.navbar').removeClass("sticky");
+        }
+
+        // scroll-up button show/hide script
+        if (this.scrollY > 500) {
+            $('.scroll-up-btn').addClass("show");
+        } else {
+            $('.scroll-up-btn').removeClass("show");
+        }
+    });
+
+    // slide-up script
+    $('.scroll-up-btn').click(function () {
+        $('html').animate({ scrollTop: 0 });
+        // removing smooth scroll on slide-up button click
+        $('html').css("scrollBehavior", "auto");
+    });
+
+    $('.navbar .menu li a').click(function () {
+        // applying again smooth scroll on menu items click
+        $('html').css("scrollBehavior", "smooth");
+    });
+
+    // toggle menu/navbar script
+    $('.menu-btn').click(function () {
+        $('.navbar .menu').toggleClass("active");
+        $('.menu-btn i').toggleClass("active");
+    });
+
+    // typing text animation script
+    var typed = new Typed(".typing", {
+        strings: ["hello, Welcome to P5Desgin!", "We Design and develop experiences that<br/> make people's live simple!", "Get in Touch"],
+        typeSpeed: 100,
+        backSpeed: 50,
+        loop: true
+    });
+
+    var typed = new Typed(".typing-2", {
+        strings: ["Real Madrid fan", "Developer", "Blogger", "Designer", "Freelancer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+    // owl carousel script
+    $('.carousel').owlCarousel({
+        margin: 20,
+        loop: true,
+        autoplayTimeOut: 2000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: false
+            },
+            600: {
+                items: 2,
+                nav: false
+            },
+            1000: {
+                items: 3,
+                nav: false
+            }
+        }
+    });
+});
+</script>
+
+
+</html>
+
